@@ -1,0 +1,27 @@
+.wrapper_visibility > .hidden {
+  visibility: hidden;
+}
+
+.wrapper_text-indent {
+  overflow: hidden;
+}
+
+.wrapper_text-indent > .hidden {
+  text-indent: -9999px;
+}
+
+.wrapper_margin {
+  overflow: hidden;
+}
+
+.wrapper_margin > .hidden {
+  margin-left: 100%;
+}
+
+.wrapper_padding {
+  overflow: hidden;
+}
+
+.wrapper_padding > .hidden {
+  padding-left: 100%;
+}

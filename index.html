@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Test browser search</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <h1>Can the browser find some text inside visually hidden block?</h1>
+  <p>Open search form (Ctrl+F) and start typing 'Сowabunga'</p>
+  <div class="menu">
+    <button class="toggle-method" data-method="visibility">Visibility</button>
+    <button class="toggle-method" data-method="text-indent">Text-indent</button>
+    <button class="toggle-method" data-method="margin">Large margin</button>
+    <button class="toggle-method" data-method="padding">Large padding</button>
+  </div>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit officia commodi provident dignissimos eligendi inventore cum dolores a in pariatur aliquid quidem esse fuga? Consequuntur nostrum modi officia repudiandae nobis!
+    <br>...<br>...<br>...<br>...<br>...<br>...<br>...<br>...<br>...<br>...<br>...
+    <br>...<br>...<br>...<br>...<br>...<br>...<br>...<br>...<br>...<br>...<br>...
+    <br>...<br>...<br>...<br>...<br>...<br>...<br>...<br>...<br>...<br>...<br>...<br>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit officia commodi provident dignissimos eligendi inventore cum dolores a in pariatur aliquid quidem esse fuga? Consequuntur nostrum modi officia repudiandae nobis!
+  </p>
+  <p>Hidden text block is placed below this line.</p>
+  <hr>
+  <div class="wrapper wrapper_visibility">
+    <div class="hidden">
+      <p>Cowabunga!</p>
+    </div>
+  </div>
+  <hr>
+  <p>Hidden text block is placed above this line.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit officia commodi provident dignissimos eligendi inventore cum dolores a in pariatur aliquid quidem esse fuga? Consequuntur nostrum modi officia repudiandae nobis!</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit officia commodi provident dignissimos eligendi inventore cum dolores a in pariatur aliquid quidem esse fuga? Consequuntur nostrum modi officia repudiandae nobis!</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit officia commodi provident dignissimos eligendi inventore cum dolores a in pariatur aliquid quidem esse fuga? Consequuntur nostrum modi officia repudiandae nobis!</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit officia commodi provident dignissimos eligendi inventore cum dolores a in pariatur aliquid quidem esse fuga? Consequuntur nostrum modi officia repudiandae nobis!</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit officia commodi provident dignissimos eligendi inventore cum dolores a in pariatur aliquid quidem esse fuga? Consequuntur nostrum modi officia repudiandae nobis!</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit officia commodi provident dignissimos eligendi inventore cum dolores a in pariatur aliquid quidem esse fuga? Consequuntur nostrum modi officia repudiandae nobis!</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit officia commodi provident dignissimos eligendi inventore cum dolores a in pariatur aliquid quidem esse fuga? Consequuntur nostrum modi officia repudiandae nobis!</p>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
